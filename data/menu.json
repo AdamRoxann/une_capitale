@@ -101,7 +101,7 @@
         {
             "name" : "Feoi Gras",
             "description" : "Makanan khas Prancis yang terbuat dari hati angsa atau bebek.",
-            "price" : 30,
+            "price" : 130,
             "category" : "Lunch",
             "picture" : "lunch/foie_gras2.jpg"
         },
