@@ -246,14 +246,15 @@ transition: all 0.3s ease 0s;
 }
 
 .footer{
-    color:black;
-    background-color: gold;
+    color:white;
+    background-color: rgba(222, 161, 29, 0.5);;
     padding-top : 10px;
     padding-bottom: 10px;
+
 }
 
 .footertext{
-    color : black;
+    color : white;
 }
 
 .footertext:hover{
