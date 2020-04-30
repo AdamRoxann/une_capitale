@@ -86,7 +86,7 @@ function displayAllMenu(){
     $.getJSON("../data/menu.json", function(result){
         var menu = result.menu;
         $.each(menu,function(i, data){
-            $('#menu-list').append('<div class="col-md-4 mb-4"><div class="card"><div class="view view-cascade overlay"><img src="../assets/menu/'+data.picture+'" class="card-img-top" alt="..."></div><div class="card-body" style="background-color: black;"><h5 class="card-title" style="text-align: center; color: white; font-weight: bold">'+data.name+'</h5><p class="card-text" style="text-align: center; color: white">'+data.description+'</p><h5 class="card-title" style="text-align: center; color: white">'+data.price+'K</h5><a href="#" class="btn btn-primary">Order Now !</a></div></div></div>');
+            $('#menu-list').append('<div class="col-md-4 mb-4"><div class="card"><div class="view view-cascade overlay"><img src="../assets/menu/'+data.picture+'" class="card-img-top" alt="..."></div><div class="card-body"><h5 class="card-title" style="text-align: center; color: black; font-weight: bold">'+data.name+'</h5><p class="card-text" style="text-align: center; color: black">'+data.description+'</p><h5 class="card-title" style="text-align: center; color: black">'+data.price+'K</h5><div class="button_cont" align="center"><a class="example_b" href="add-website-here" target="_blank" rel="nofollow noopener">ORDER NOW!</a></div></div></div></div>');
         });
     });
 }
@@ -144,12 +144,12 @@ $('.nav-link').on('click',function(){
         var content = "";
         $.each(menu, function(i, data){
             if (data.category == category){
-                content += '<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+data.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+data.name+'</h5><p class="card-text">'+data.description+'</p><h5 class="card-title">'+data.price+'K</h5><a href="#" class="btn btn-primary">Order Now !</a></div></div></div>';
+                content += '<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+data.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+data.name+'</h5><p class="card-text">'+data.description+'</p><h5 class="card-title">'+data.price+'K</h5><div class="button_cont" align="center"><a class="example_b" href="add-website-here" target="_blank" rel="nofollow noopener">ORDER NOW!</a></div></div></div></div>';
             }else if (category == "All Menu"){
                 $.getJSON("../data/menu.json", function(result){
                     var menu = result.menu;
                     $.each(menu,function(i, data){
-                        $('#menu-list').append('<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+data.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+data.name+'</h5><p class="card-text">'+data.description+'</p><h5 class="card-title">'+data.price+'K</h5><a href="#" class="btn btn-primary">Order Now !</a></div></div></div>');
+                        $('#menu-list').append('<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+data.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+data.name+'</h5><p class="card-text">'+data.description+'</p><h5 class="card-title">'+data.price+'K</h5><div class="button_cont" align="center"><a class="example_b" href="add-website-here" target="_blank" rel="nofollow noopener">ORDER NOW!</a></div></div></div></div>');
                     });
                 });
                 return false;
@@ -177,22 +177,22 @@ $('.dropdown-menu a').on('click',function(){
     if (sort == "nama a-z"){
         tempmenu = tempmenu.sort(SortMenu("asc"));
         $.each(tempmenu, function(z, tempmenus){
-            content += '<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+tempmenus.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+tempmenus.name+'</h5><p class="card-text">'+tempmenus.description+'</p><h5 class="card-title">'+tempmenus.price+'K</h5><a href="#" class="btn btn-primary">Order Now !</a></div></div></div>';
+            content += '<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+tempmenus.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+tempmenus.name+'</h5><p class="card-text">'+tempmenus.description+'</p><h5 class="card-title">'+tempmenus.price+'K</h5><div class="button_cont" align="center"><a class="example_b" href="add-website-here" target="_blank" rel="nofollow noopener">ORDER NOW!</a></div></div></div></div>';
         })
     }else if (sort == "nama z-a"){
         tempmenu = tempmenu.sort(SortMenu("desc"));
         $.each(tempmenu, function(z, tempmenus){
-            content += '<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+tempmenus.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+tempmenus.name+'</h5><p class="card-text">'+tempmenus.description+'</p><h5 class="card-title">'+tempmenus.price+'K</h5><a href="#" class="btn btn-primary">Order Now !</a></div></div></div>';
+            content += '<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+tempmenus.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+tempmenus.name+'</h5><p class="card-text">'+tempmenus.description+'</p><h5 class="card-title">'+tempmenus.price+'K</h5><div class="button_cont" align="center"><a class="example_b" href="add-website-here" target="_blank" rel="nofollow noopener">ORDER NOW!</a></div></div></div></div>';
         })
     }else if (sort == "harga termurah"){
         tempmenu = tempmenu.sort(SortPrice('asc'));
         $.each(tempmenu, function(z, tempmenus){
-            content += '<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+tempmenus.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+tempmenus.name+'</h5><p class="card-text">'+tempmenus.description+'</p><h5 class="card-title">'+tempmenus.price+'K</h5><a href="#" class="btn btn-primary">Order Now !</a></div></div></div>';
+            content += '<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+tempmenus.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+tempmenus.name+'</h5><p class="card-text">'+tempmenus.description+'</p><h5 class="card-title">'+tempmenus.price+'K</h5><div class="button_cont" align="center"><a class="example_b" href="add-website-here" target="_blank" rel="nofollow noopener">ORDER NOW!</a></div></div></div></div>';
         })
     }else if (sort == "harga termahal"){
         tempmenu = tempmenu.sort(SortPrice("desc"));
         $.each(tempmenu, function(z, tempmenus){
-            content += '<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+tempmenus.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+tempmenus.name+'</h5><p class="card-text">'+tempmenus.description+'</p><h5 class="card-title">'+tempmenus.price+'K</h5><a href="#" class="btn btn-primary">Order Now !</a></div></div></div>';
+            content += '<div class="col-md-4 mb-4"><div class="card"><img src="../assets/menu/'+tempmenus.picture+'" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">'+tempmenus.name+'</h5><p class="card-text">'+tempmenus.description+'</p><h5 class="card-title">'+tempmenus.price+'K</h5><div class="button_cont" align="center"><a class="example_b" href="add-website-here" target="_blank" rel="nofollow noopener">ORDER NOW!</a></div></div></div></div>';
         })
     }
     $('#menu-list').html(content);

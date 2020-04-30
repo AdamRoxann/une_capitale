@@ -61,6 +61,9 @@
                     <a class="nav-link" href=#>Dinner</a>
                 </li>
                 <li class="nav-item" style="display: inline-block;">
+                    <a class="nav-link" href=#>Dishes</a>
+                </li>
+                <li class="nav-item" style="display: inline-block;">
                     <a class="nav-link" href=#>Drink</a>
                 </li>
               <ul style="float: right;">
@@ -84,6 +87,8 @@
    		  </div> -->
 	<div class="row mt-4" id="menu-list">
         </div>
+ 
+
   </div>
   <footer class="footer">
       <div class="text-center">Copyright &copy; 2020
