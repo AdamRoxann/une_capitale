@@ -107,7 +107,7 @@
         },
         {
             "name" : "French Toast",
-            "description" : "Roti dengan baluman madu dan buah-buahan",
+            "description" : "Roti dengan balutan madu dan buah-buahan",
             "price" : 20,
             "category" : "Breakfast",
             "picture" : "breakfast/french_toast.jpg"
