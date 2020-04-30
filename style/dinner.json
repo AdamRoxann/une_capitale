@@ -1,0 +1,60 @@
+{
+   "menu" : [
+        {
+            "nama" : "Spicy Hot Steak",
+            "deskripsi" : "HOT STEAK WITH FEW PEPPER ON IT",
+            "Harga" : 60,
+            "menu_image" : "assets/menu/dinner/spicy_steak.jpg",
+            "kategori" : "dinner"
+        },
+        {
+            "name" : "Regular Steak",
+            "deskripsi" : "HOT STEAK WITH FEW PEPPER ON IT",
+            "harga" : 40,
+            "menu_image" : "assets/menu/dinner/spicy_steak.jpg",
+            "kategori" : "dinner"
+        },
+        {
+            "name" : "Regular Steak",
+            "deskripsi" : "HOT STEAK WITH FEW PEPPER ON IT",
+            "harga" : 40,
+            "menu_image" : "assets/menu/dinner/spicy_steak.jpg",
+            "kategori" : "dinner"
+        },
+        {
+            "name" : "Regular Steak",
+            "deskripsi" : "HOT STEAK WITH FEW PEPPER ON IT",
+            "harga" : 40,
+            "menu_image" : "assets/menu/dinner/spicy_steak.jpg",
+            "kategori" : "dinner"
+        },
+        {
+            "name" : "Regular Steak",
+            "deskripsi" : "HOT STEAK WITH FEW PEPPER ON IT",
+            "harga" : 40,
+            "menu_image" : "assets/menu/dinner/spicy_steak.jpg",
+            "kategori" : "dinner"
+        },
+        {
+            "name" : "Regular Steak",
+            "deskripsi" : "HOT STEAK WITH FEW PEPPER ON IT",
+            "harga" : 40,
+            "menu_image" : "assets/menu/dinner/spicy_steak.jpg",
+            "kategori" : "dinner"
+        },
+        {
+            "name" : "Regular Steak",
+            "deskripsi" : "HOT STEAK WITH FEW PEPPER ON IT",
+            "harga" : 40,
+            "menu_image" : "assets/menu/dinner/spicy_steak.jpg",
+            "kategori" : "dinner"
+        },
+        {
+            "name" : "Regular Steak",
+            "deskripsi" : "HOT STEAK WITH FEW PEPPER ON IT",
+            "harga" : 40,
+            "menu_image" : "assets/menu/dinner/spicy_steak.jpg",
+            "kategori" : "dinner"
+        },
+    ]
+}

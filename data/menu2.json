@@ -1,0 +1,158 @@
+{
+    "menu" : [
+        {
+            "name" : "Hot Spicy Steak",
+            "description" : "Steak pedas dengan taburan sayuran",
+            "price" : 60,
+            "category" : "Dinner",
+            "picture" : "dinner/spicy_steak.jpg"
+        },
+        {
+            "name" : "Ratatouille niçoise",
+            "description" : "Tersedia dengan kandungan kentang, sayur-sayuran serta keju",
+            "price" : 80,
+            "category" : "Dinner",
+            "picture" : "dinner/ratatouille.jpg"
+        },
+        {
+            "name" : "Moules Marinières",
+            "description" :"Kerang dengan nuansa Prancis beserta sayuran",
+            "price" : 30,
+            "category" :"Dinner",
+            "picture" :"dinner/moules_marinieres.jpg"
+        },
+        {
+            "name" :"Boeuf Bourguignon",
+            "description" : "Sup Daging Sapi yang direndam dalam Anggur Merah",
+            "price" : 80,
+            "category" :"Dinner",
+            "picture" : "dinner/boeuf_bourguignon.jpg"
+        },
+        {
+            "name" :"Confit de canard",
+            "description" : "Hidangan Prancis dengan Bebek Utuh disertai topping dari Anggur Merah",
+            "price" : 80,
+            "category" :"Lunch",
+            "picture" : "lunch/confit_de_canard.jpg"
+        },
+        {
+            "name" : "Soupe à L’oignon",
+            "description" : "Sup dari bawang merah dan kuah daging sapi yang dihidangkan dengan crouton dan keju.",
+            "price" : 25,
+            "category" :"Lunch",
+            "picture" : "lunch/Soupe_à_L’oignon.jpg"
+        },
+        {
+            "name" : "Blanquette de veau",
+            "description" : "Ragout/Sup daging sapi muda Prancis yang kaya dengan mentega, cream dan wortel",
+            "price" : 40,
+            "category" : "Dishes",
+            "picture" : "dishes/blanquette_de_veau.jpg"
+        },
+        {
+            "name" : "Steak Tartare",
+            "description" : "Daging mentah yang dicincang. Daging yang biasa digunakan adalah daging sapi atau daging kuda disajikan dengan bawang, caper, lada, kecap Inggris",
+            "price" : 50,
+            "category" : "Dishes",
+            "picture" : "steak_tartare.jpg"
+        },
+        {
+            "name" : "Tarte Tatin",
+            "description" : "Kue (Kue Tar) yang buahnya dikaramelisasi dengan mentega dan gula sebelum kue tersebut dipanggang",
+            "price" : 35,
+            "category" : "Dishes",
+            "picture" : "dishes/tarte_tatin.jpg"
+        },
+        {
+            "name" : "Bouillabaisse",
+            "description" : "Sebuah masakan tradisional Provençal berupa sup ikan yang berasal dari Kota Marseille",
+            "price" : 45,
+            "category" : "Lunch",
+            "picture" : "lunch/bouillabaisse.jpg"
+        },
+        {
+            "name" : "Pissaladière",
+            "description" : "Pizza kecil dengan bawang, minyak olive, dan ikan teri",
+            "price" : 30,
+            "category" : "Breakfast",
+            "picture" : "breakfast/pissaladière.jpg"
+        },
+        {
+            "name" : "Fondue Savoyarde",
+            "description" : "Mangkok besar dengan lelehan keju yang dicampur dengan Anggur Putih dan bawang, dihidangkan dengan roti, sandwich atau ham",
+            "price" : 35,
+            "category" : "Dishes",
+            "picture" : "dishes/fondue_savoyarde.jpg"
+        },
+        {
+            "name" : "Tartiflette",
+            "description" : "Berasal dari wilayah Savoie, Prancis. Hidangan ini terbuat dari kentang, keju reblochon, lemak sapi, dan bawang.",
+            "price" : 35,
+            "category" : "Dishes",
+            "picture" : "dishes/tartiflette.jpg"
+        },
+        {
+            "name" : "Coq au Vin",
+            "description" : "Ayam jantan dimasak dengan anggur, mentega,lardon, jamur dan kadang-kadang bawang.",
+            "price" : 55,
+            "category" : "Lunch",
+            "picture" : "lunch/Coq_au_vin.jpg"
+        },
+        {
+            "name" : "Feoi Gras",
+            "description" : "Makanan khas Prancis yang terbuat dari hati angsa atau bebek.",
+            "price" : 30,
+            "category" : "Lunch",
+            "picture" : "lunch/feoi_gras.Lunch"
+        },
+        {
+            "name" : "French Toast",
+            "description" : "Roti dengan baluman madu dan buah-buahan",
+            "price" : 20,
+            "category" : "Breakfast",
+            "picture" : "breakfast/french_toast.jpg"
+        },
+        {
+            "name" : "Prosciutto Parmesan Croissants",
+            "description" : "Sandwich khas Prancis dengan isi yang dapat diatur",
+            "price" : 20,
+            "category" : "Breakfast",
+            "picture" : "breakfast/prosciutto_parmesan_croissants.jpg"
+        },
+        {
+            "name" : "Prosciutto Parmesan Croissants",
+            "description" : "Sandwich khas Prancis dengan isi yang dapat diatur",
+            "price" : 20,
+            "category" : "Breakfast",
+            "picture" : "breakfast/prosciutto_parmesan_croissants.jpg"
+        },
+        {
+            "name" : "Cafe au Lait",
+            "description" : "Coffe carramel dengan with milk inside",
+            "price" : 30,
+            "category" : "Drink",
+            "picture" : "drink/cafe_au_lait.jpg"
+        },
+        {
+            "name" : "Citron Presse",
+            "description" : "Minuman lemon yang dapat diatur sesuai lidah masing-masing",
+            "price" : 25,
+            "category" : "Drink",
+            "picture" : "drink/citron_presse.jpg"
+        },
+        {
+            "name" : "Kir Royale",
+            "description" : "Terdiri dari crème de cassis atasnya dengan sampanye, bukan anggur putih yang digunakan dalam Kir tradisional.",
+            "price" : 70,
+            "category" : "Drink",
+            "picture" : "drink/citron_presse.jpg"
+        },
+        {
+            "name" : "Chocolat L'ancienne",
+            "description" : "Minuman Coklat dengan Cream dan wafer.",
+            "price" : 40,
+            "category" : "Drink",
+            "picture" : "drink/chocolat_l'ancienne.jpg"
+        },
+    ]
+}

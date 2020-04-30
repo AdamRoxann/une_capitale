@@ -1,0 +1,244 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.navbar {
+    /*text-align: */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    /*text-align: center;*/
+    margin-top: 70px;
+    transition: all 0.4s;
+}
+
+
+.vertical-center {
+    padding-top: 30px;
+  text-align: center;
+  /*position: relative;*/
+  /*top: 50%;*/
+  /*-ms-transform: translateY(-50%);*/
+  /*transf/orm: translateY(-50%);*/
+}
+
+.nav-item {
+    color: white;
+    transition: all 0.4s;
+    font-weight: 500;
+}
+
+.nav-item:hover {
+    color: gold;
+}
+
+.active {
+    color: gold;
+}
+
+/*.navbar .nav-link {*/
+    /*color: #fff;*/
+    /*transition: all 0.4s;*/
+/*}*/
+
+
+/*.navbar .nav-link:hover,*/
+/*.navbar .nav-link:focus {*/
+    /*color: #fff;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.navbar .navbar-brand {*/
+    /*color: #fff;*/
+/*}*/
+
+
+/* Change navbar styling on scroll */
+/*.navbar.active {*/
+    /*background: #fff;*/
+    /*box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.navbar.active .nav-link {*/
+    /*color: #555;*/
+/*}*/
+
+/*.navbar.active .nav-link:hover,*/
+/*.navbar.active .nav-link:focus {*/
+    /*color: #555;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.navbar.active .navbar-brand {*/
+    /*color: #555;*/
+/*}*/
+
+/*.wrapper {*/
+    /*text-align: center;*/
+/*}*/
+
+/*.button {*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+/*}*/
+
+.navbar-toggler {
+        /*border: 1px solid white !important;*/
+        border-radius: 0;
+}
+a.navbar-brand,
+.navbar-nav a {
+        font-size: 20px;
+        color: white !important;
+}
+
+div .title {
+    align-items: center;
+}
+
+/*.title h2 {*/
+    /*display: inline-block*/
+    /*width: 200px;*/
+    /*margin-top: 10px;*/
+    /*color: white;*/
+    /*text-align: center;*/
+    /*border: 1px solid black;*/
+/*}*/
+
+.squares {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon1 {
+    width: 280px;
+  text-decoration: none;
+    height: 50px;
+    color: white;
+     padding-top: 10px;
+        /*margin-right: 10%;*/
+    border: 2px solid white;
+        /*border-style: ridge;*/
+     display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 4px;
+    font-size: 25px;
+    transition: 0.5s;
+    /*list-style-type: none;
+    text-decoration-line: none;
+    text-decoration-style: none;*/
+}   
+
+.icon1:hover {
+    /*color: black;
+    list-style-type: none;
+    text-decoration: none;*/
+    text-decoration: none;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../assets/font/parkavenueitalic.ttf);
+}
+
+.font {
+    margin-top: 10px;
+    font-size: 100px;
+    color: gold;
+    text-align: center;
+    font-family: myFirstFont;
+}
+
+.we {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* Change navbar styling on small viewports */
+/*@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+*/
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+
+
+
+body {
+    animation-name: example;
+    animation-duration: 2s;
+    /*font-family: "Avanta Garde";*/
+    font-family: "Malgun Gothic";
+    /*min-height: 110vh;*/
+    background-size: 1366px 768px;
+    background-repeat: no-repeat;
+    /*background-color: #4ca1af;*/
+    /*background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);*/
+    background-image: url("../assets/images/home_background.jpg");
+    /*opacity: 0.6;*/
+}
+
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+.example_e {
+    
+margin-top: 30px;
+/*border: none ;*/
+border: 3px solid white ;
+background: #592c10;
+/*background: #404040;*/
+color: #ffffff !important;
+font-weight: 600;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+}
+
+.example_e:hover {
+margin-top: 30px;
+color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: white;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
