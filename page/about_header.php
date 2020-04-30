@@ -8,8 +8,8 @@
   <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> -->
       <nav class="navbar navbar-expand-lg">
       <a class="nav-item nav-link " href="../index.php"><img src="../assets/dot.png" style="width: 6px; margin-right: 15px; margin-bottom: 2.75px;" id="navbar">HOME</span></a>
-      <a class="nav-item nav-link active" href="features.php"><img src="../assets/dot.png" style="width: 6px; margin-right: 15px; margin-bottom: 2.75px;">FEATURES</a>
-      <a class="nav-item nav-link" href="about.php"><img src="../assets/dot.png" style="width: 6px; margin-right: 15px; margin-bottom: 2.75px;">ABOUT</a>
+      <a class="nav-item nav-link" href="features.php"><img src="../assets/dot.png" style="width: 6px; margin-right: 15px; margin-bottom: 2.75px;">FEATURES</a>
+      <a class="nav-item nav-link  active" href="about.php"><img src="../assets/dot.png" style="width: 6px; margin-right: 15px; margin-bottom: 2.75px;">ABOUT</a>
       <a href="#" class="nav-item nav-link"><img src="../assets/dot.png" style="width: 6px; height: 6px; margin-bottom: 2.75px;"></a>
     </nav>
     <!-- <form class="form-inline my-2 my-lg-0"> -->
