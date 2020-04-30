@@ -1,7 +1,3 @@
-<?php 
-	include "connection/config.php"
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
